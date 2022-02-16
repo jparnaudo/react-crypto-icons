@@ -1,15 +1,15 @@
 {
-  "name": "react-crypto-icons",
+  "name": "@jparnaudo/react-crypto-icons",
   "version": "1.0.5",
   "description": "A simple React component that can display 600 crypto icons",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rileystephens28/react-crypto-icons.git"
+    "url": "git+https://github.com/jparnaudo/react-crypto-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/rileystephens28/react-crypto-icons/issues"
+    "url": "https://github.com/jparnaudo/react-crypto-icons/issues"
   },
-  "homepage": "https://github.com/rileystephens28/react-crypto-icons#readme",
+  "homepage": "https://github.com/jparnaudo/react-crypto-icons#readme",
   "directories": {
     "example": "example",
     "lib": "lib"
@@ -29,7 +29,9 @@
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "files": ["/lib"],
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -r ./lib/ && npm run build:esm && npm run copy-assets",
